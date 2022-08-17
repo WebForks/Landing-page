@@ -1,0 +1,230 @@
+/* -----STYLING----- */
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f9faf8;
+  }
+  
+  a {
+    color: #f9faf8;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: lighter;
+  }
+  
+  /* ----HEADER----- */
+  
+  header {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding-bottom: 100px;
+  }
+  
+  /* HEADER NAV BAR  */
+  
+  .Header {
+    display: flex; 
+    align-items: center;
+    margin-left: 100px;
+    padding-bottom: 75px;
+    padding-top: 25px;
+  }
+  
+  .Header > h3 {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bolder;
+    display: inline-block;
+  }
+  
+  .HeaderLinks {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    gap: 50px;
+    margin-right: 200px;
+    transition: 0.4s;
+  }
+  
+  .menu-link:hover {
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    transition: 0.4s;
+  }
+  
+  /* HEADER INFO */
+  
+  header h1 {
+    font-size: 48px;
+    font-weight: bolder;
+  }
+  
+  header p {
+    font-size: 18px;
+    font-weight: lighter;
+  }
+  
+   /* -----First section----- */
+
+  .FirstSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .FirstSectionLeft {
+    margin-left: 75px;
+  }
+  
+  .FirstSection,
+  .FirstSection {
+    margin-bottom: 20px;
+  }
+  
+  .head-img {
+    height: auto;
+    width: 600px;
+    margin-right: 200px;
+    transition: 0.4s;
+  }
+  
+  .head-img:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 0.4s;
+  }
+  
+  .FirstSectionButton {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 14px;
+    font-weight: lighter;
+    padding: 5px 20px;
+    border: #f9faf8 solid 2px;
+    border-radius: 5px;
+  }
+  
+  .FirstSectionButton:hover {
+    background-color: #f9faf8;
+    color: #1f2937;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+  }
+  
+  /* -----Second section----- */
+  
+  .SecondSection {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .SecondSection h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+  }
+  
+  .SecondSectionPictures,
+  .SecondSectionPictureText {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .SSP {
+    height: 500px;
+    width: 300px;
+    border: #3882f6 solid 10px;
+    border-radius: 7px;
+    transition: 0.4s;
+  }
+  
+  .SSP:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.4s;
+  }
+  
+  .SecondSectionPictureText {
+    color: #1f2937;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    font-weight: lighter;
+  }
+  
+  /* -----Third section----- */
+  
+  .ThirdSection {
+    background-color: #e5e7eb;
+    padding: 100px;
+  }
+  
+  .ThirdSection p {
+    font-size: 36px;
+    font-weight: lighter;
+    text-align: center;
+  }
+  
+  .ThirdSection h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 25px;
+    text-align: center;
+  }
+  
+  /* -----Forth Section----- */
+  
+  .ForthSection {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 50px auto;
+    border-radius: 10px;
+    padding: 40px 30px;
+  }
+  
+  .ForthSection h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .ForthSectionBottomText {
+    color: #e5e7eb;
+    display: block;
+    font-size: 18px;
+    font-weight: lighter;
+  }
+  
+  .ForthSectionButton {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 14px;
+    font-weight: lighter;
+    padding: 5px 20px;
+    border: #f9faf8 solid 2px;
+    border-radius: 5px;
+  }
+  
+  .ForthSectionButton:hover {
+    background-color: #1f2937;
+    color: #f9faf8;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
+  /* -----Footer----- */
+  
+  footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-weight: lighter;
+    padding: 30px 40px;
+    text-align: center;
+  }
